@@ -1,5 +1,5 @@
 #!/bin/bash
-NODO=$(hostname)
+NODO="nodo1"
 LOG_DIR="$(dirname "$0")/../logs"
 mkdir -p "$LOG_DIR"
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)

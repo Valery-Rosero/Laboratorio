@@ -1,5 +1,5 @@
 #!/bin/bash
-NODO="nodo3a"
+NODO="nodo3"
 LOG_DIR="$(dirname "$0")/../logs"
 mkdir -p "$LOG_DIR"
 LOG_FILE="$LOG_DIR/update_$(date +%Y%m%d_%H%M%S).log"

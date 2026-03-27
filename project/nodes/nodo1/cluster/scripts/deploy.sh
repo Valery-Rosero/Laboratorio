@@ -1,5 +1,5 @@
 #!/bin/bash
-NODO=$(hostname)
+NODO="nodo1"
 APP=${1:-"app-default"}
 LOG_DIR="$(dirname "$0")/../logs"
 mkdir -p "$LOG_DIR"
